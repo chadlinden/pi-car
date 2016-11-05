@@ -1,0 +1,17 @@
+{
+    "license": "MIT",
+    "require": {
+        "piphp/gpio": "^0.3.3",
+        "calcinai/phpi": "^0.1.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "PiPHP\\": "piphp/",
+            "AMHphp\\": "../AMHphp/"
+        },
+        "psr-4": {
+            "Robot\\": "robot/",
+            "Robot\\Modules\\": "robot/modules/"
+        }
+    }
+}

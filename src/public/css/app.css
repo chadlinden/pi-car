@@ -1,0 +1,101 @@
+/*@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";*/
+/*@import "node_modules/custom";*/
+/*----
+    My crappy CSS:
+    */
+.form-control#notes {
+  height: 200px; }
+
+.form-control.notes > text {
+  rows: 12; }
+
+.form-control.double {
+  height: 60px; }
+
+#wrapper {
+  height: 100%; }
+
+.scrolling-table {
+  overflow: scroll;
+  height: 20%; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+#sticky-footer {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  z-index: 2500; }
+/*
+#calendar_box {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  z-index: 9999;
+  top: 75px;
+  padding: 15px;
+  display: none; }
+*/
+.booked-schedule {
+  background-color: #6B90FF;
+  border-radius: 8px;
+  border: solid black 1px;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+
+.open-schedule {
+  background-color: #f9f9f9; 
+  opacity:0;
+}
+
+.overlap {
+  background-color: #FAAB3C; }
+
+#scheduler {
+  *border: px solid #000; }
+
+.credit-card + .credit-card:before {
+  content: "-";
+  position: absolute;
+  left: -2%;
+  top: 6px;
+}
+#highlights span{
+  background-color:#FF9;
+  color:#555;
+}
+
+.chat-box {
+
+}
+/*# sourceMappingURL=app.css.map */
+.glowing-border {
+  border: 2px solid #da0603;
+  border-radius: 7px;
+  outline: none;
+  border-color: #da0603;
+  box-shadow: 0 0 10px #da0603;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
